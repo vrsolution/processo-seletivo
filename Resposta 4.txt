@@ -1,0 +1,8 @@
+Quando usuario entra no site http://www.netshoes.com.br ocorre varias processos, segue
+1  - Identificacao do Ip do servidor da Netshoes, para o usuario isso não aparece basta saber apenas a URL
+2  - Envia requisica para o servidor, 
+3  - Servidor identifica que a requisição é para a raiz do site, pagina index
+4  - Servidor envia o response com o conteudo html e o status 200 que identifica sucesso(existem outros status, 404,500 etc) 
+5  - No mesmo momento da renderizacao do html, o browser solicita recursos complementares(css, js, imagens)
+6  - Browser armazena no cache para requisições futuras
+7  - Pagina é visualizada no Browser, fim do processo de renderização
